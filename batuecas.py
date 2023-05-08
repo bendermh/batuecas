@@ -60,6 +60,7 @@ graf.scatter(perro6,medidasP6,label=nombres[5],alpha = opacidad, s = tamaño);
 #formato del gráfico
 graf.legend(loc='center right', shadow=True, bbox_to_anchor=(1.4, 0.5));
 graf.set_theta_zero_location("N");
+graf.set_theta_direction(-1);
 if puntosCardinales :
     graf.set_thetagrids(range(0,360,int((360/8))),('N', 'NO', 'O', 'SO', 'S', 'SE', 'E', 'NE'));
 graf.plot
